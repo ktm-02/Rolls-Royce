@@ -1,0 +1,470 @@
+body {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  background: black;
+  font-family: "Riviera Nights", "Gill Alt One MT", Helvetica, Arial,
+    -apple-system, sans-serif;
+}
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.BBG {
+  position: absolute;
+  top: 202%;
+  width: 100%;
+  height: 100% !important;
+  padding: 0 !important;
+  object-fit: cover;
+}
+.nav {
+  margin-top: -15px;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 20vh;
+  border-bottom: 2px solid rgb(216, 215, 215);
+  border-radius: 1px;
+}
+.nav .icon {
+  display: inline;
+  z-index: 3;
+  margin: -30px 0px 0px 48%;
+  cursor: pointer;
+}
+.nav .menu {
+  display: inline;
+  width: 25px;
+  height: 30px;
+  margin: 50px 0px 0px 15px;
+  cursor: pointer;
+}
+.nav .menu-view {
+  display: none;
+  margin-top: -100px;
+  width: 30%;
+  height: 100vh;
+  padding: 200px 0px 0px 100px;
+  background: rgba(29, 27, 27, 0.459);
+  animation: side 2s linear forwards;
+}
+@keyframes side {
+  0% {
+    width: 1%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+.nav .menu-view span {
+  position: absolute;
+  bottom: 30%;
+  left: -88%;
+  width: 20px;
+  font-size: 20px;
+  border: 2px solid;
+  text-align: center;
+  border-radius: 50%;
+  padding: 6px 5px 5px 7px;
+  transition: .5s;
+}
+.nav .menu-view span:hover {
+  transform: scale(1.1);
+}
+.nav .menu-view li {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 30px 50px 0px 0px;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.nav .menu-view li:hover {
+  color: rgb(136, 135, 135);
+}
+.nav .menu:hover {
+  filter: drop-shadow(1px 1px 5px);
+}
+.nav h1 {
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-style: initial;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: -25px 0px 0px 50px;
+}
+.nav h1:hover {
+  text-shadow: 1px 1px 5px;
+}
+.nav span {
+  position: absolute;
+  display: inline;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: -40px 0px 0px 1225px;
+}
+.nav span:hover {
+  text-shadow: 1px 1px 5px;
+}
+.nav .search {
+  position: absolute;
+  margin: -40px -300px 0px 1190px;
+}
+.nav .search:hover {
+  filter: drop-shadow(1px 1px 5px);
+}
+.content {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+.content h1 {
+  letter-spacing: 5px;
+  font-size: 80px;
+  color: white;
+  text-shadow: 1px 1px 2px;
+  font-weight: lighter;
+}
+.content h3 {
+  letter-spacing: 3px;
+  margin: -50px 0px 0px 70px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 5px;
+  font-weight: lighter;
+}
+.content button {
+  margin: 30px 0px 0px 20px;
+  width: 250px;
+  height: 46px;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 3px;
+  transition: all 0.2s;
+}
+.content button:hover {
+  padding-right: 25px;
+  background-color: rgb(224, 224, 224);
+}
+.content button img {
+  display: none;
+  position: absolute;
+  margin-left: 5px;
+  bottom: 10px;
+  width: 20px;
+  height: 25px;
+  transition: all 0.2s;
+}
+.container {
+  position: absolute;
+  margin: 600px 0px 0px 0px;
+  color: rgb(255, 255, 255);
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 18vh;
+}
+.container .rollsroyce {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: no-repeat left/cover;
+}
+.container .icon1 {
+  position: absolute;
+  display: inline;
+  z-index: 3;
+  margin: -35px 0px 0px 48%;
+  top: 100px;
+  cursor: pointer;
+}
+.container .menu1 {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 25px;
+  height: 30px;
+  margin: 50px 0px 0px 15px;
+  cursor: pointer;
+}
+.container .menu1:hover {
+  filter: drop-shadow(1px 1px 5px);
+}
+.container h1 {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-style: initial;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: -620px 0px 0px 50px;
+}
+.container h1:hover {
+  text-shadow: 1px 1px 5px;
+}
+.container span {
+  position: absolute;
+  top: 100px;
+  display: inline;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: -25px 0px 0px 1225px;
+}
+.container span:hover {
+  text-shadow: 1px 1px 5px;
+}
+.container .search1 {
+  position: absolute;
+  top: 105px;
+  margin: -29px -300px 0px 1190px;
+}
+.container .search1:hover {
+  filter: drop-shadow(1px 1px 5px);
+}
+.content1 {
+  position: absolute;
+  top: 500%;
+  left: 36%;
+  transition: all 2s;
+}
+.content1 h1 {
+  margin-top: -400px;
+  letter-spacing: 5px;
+  font-size: 80px;
+  color: white;
+  text-shadow: 1px 1px 2px;
+  font-weight: lighter;
+}
+.content1 h3 {
+  letter-spacing: 3px;
+  margin: 20px 0px 0px 100px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 5px;
+  font-weight: lighter;
+}
+.content1 button {
+  margin: 30px 0px 110px 70px;
+  width: 250px;
+  height: 46px;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 3px;
+  transition: all 0.2s;
+}
+.content1 button:hover {
+  padding-right: 25px;
+  background-color: rgb(224, 224, 224);
+}
+.content1 button img {
+  display: none;
+  position: absolute;
+  top: -160px;
+  margin-left: 5px;
+  bottom: 10px;
+  width: 20px;
+  height: 25px;
+  transition: all 0.2s;
+}
+.nav2 {
+  top: 200%;
+  left: 0%;
+  margin-top: -15px;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 20vh;
+  border-bottom: 2px solid rgb(216, 215, 215);
+  border-radius: 1px;
+}
+.nav2 .icon2 {
+  display: inline;
+  z-index: 3;
+  margin: -30px 0px 0px 48%;
+  cursor: pointer;
+}
+.nav2 .menu2 {
+  width: 25px;
+  height: 30px;
+  margin: 60px 0px 0px 15px;
+  cursor: pointer;
+}
+.nav2 .menu2:hover {
+  filter: drop-shadow(1px 1px 5px);
+}
+.nav2 h1 {
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-style: initial;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: -25px 0px 0px 50px;
+}
+.nav2 h1:hover {
+  text-shadow: 1px 1px 5px;
+}
+.nav2 span {
+  position: absolute;
+  display: inline;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: -40px 0px 0px 1225px;
+}
+.nav2 span:hover {
+  text-shadow: 1px 1px 5px;
+}
+.nav2 .search2 {
+  position: absolute;
+  margin: -40px -300px 0px 1190px;
+}
+.nav2 .search2:hover {
+  filter: drop-shadow(1px 1px 5px);
+}
+.content2 {
+  position: absolute;
+  top: 230%;
+  left: 40%;
+}
+.content2 h1 {
+  letter-spacing: 5px;
+  font-size: 80px;
+  color: white;
+  text-shadow: 1px 1px 2px;
+  font-weight: lighter;
+}
+.content2 .BB {
+  letter-spacing: 3px;
+  margin: 68px 0px 0px -35px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 1px 1px 5px;
+  font-weight: lighter;
+  line-height: 0px;
+}
+.content2 h3 {
+  letter-spacing: 3px;
+  margin: -50px 0px 0px 70px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 5px;
+  font-weight: lighter;
+}
+.content2 button {
+  margin: 30px 0px 0px 20px;
+  width: 250px;
+  height: 46px;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 3px;
+  transition: all 0.2s;
+}
+.content2 button:hover {
+  padding-right: 25px;
+  background-color: rgb(224, 224, 224);
+}
+.content2 button img {
+  display: none;
+  position: absolute;
+  margin-left: 5px;
+  top: 291px;
+  bottom: 10px;
+  width: 20px;
+  height: 25px;
+  transition: all 0.2s;
+}
+#menu-bar {
+  display: none;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 13px;
+  letter-spacing: 3px;
+  top: 22%;
+  left: 20px;
+  transition: 0.2s;
+}
+summary {
+  cursor: pointer;
+  transition: 0.2s;
+}
+summary:hover {
+  color: rgb(187, 187, 187);
+}
+#menu-bar .menu-item li:hover {
+  color: rgb(109, 108, 108);
+  text-shadow: 1px 1px 5px;
+}
+#menu-bar .menu-item {
+  background-color: white;
+  width: 120%;
+  height: 10vh;
+  display: inline-flex;
+  color: black;
+  margin: 30px 0px 0px -20px;
+  list-style: none;
+  animation: down 1s linear forwards;
+}
+.menu-item2 {
+  margin: -15px 0px 0px 350%;
+  width: 400%;
+  position: absolute;
+  list-style: none;
+}
+.menu-item2 a {
+  color: white;
+}
+.menu-item2 li {
+  display: inline;
+  margin-left: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.menu-item2 li:hover {
+  color: rgb(187, 187, 187);
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(187, 187, 187);
+}
+@keyframes down {
+  0% {
+    height: 2vh;
+  }
+  100% {
+    height: 10vh;
+  }
+}
+#menu-bar .menu-item li {
+  cursor: pointer;
+  padding: 25px 20px 0px 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-height: 650px) and (min-height: 500px) {
+  .rrmc-homepage-carousel-copy {
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .rrmc-homepage-carousel-copy {
+    margin: 0 14rem;
+  }
+}
